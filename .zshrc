@@ -77,6 +77,11 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
 export PATH=/home/sergio/.local/share/neovim/bin:$PATH
+export DENO_INSTALL="/home/sergio/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
+
+export FLYCTL_INSTALL="/home/sergio/.fly"
+export PATH="$FLYCTL_INSTALL/bin:$PATH"
 
 # setxkbmap -option caps:escape
 # xset r rate 210 40

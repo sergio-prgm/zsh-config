@@ -35,7 +35,7 @@ zstyle ':vcs_info:git:*' formats " %{$fg[blue]%}(%{$fg[red]%}%m%u%c %{$fg[yellow
 # 1 (({$fg[red]%}@%)) show red @
 # 2 (({$fg[white]%}%m%)) show device's name
 # PROMPT="%B%{$fg[blue]%}[%{$fg[white]%}%n%(·1·)(·2·){$fg[blue]%}] %T %(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )%{$fg[cyan]%}%c%{$reset_color%}"
-PROMPT="%B%{$fg[blue]%}[%{$fg[white]%}%n%{$fg[blue]%}] %{$fg[cyan]%}%c %(?:%{$fg_bold[green]%} :%{$fg_bold[red]%})%{$reset_color%}"
+PROMPT="%B%{$fg[blue]%}[%{$fg[white]%}%n%{$fg[blue]%}] %{$fg[cyan]%}%c %(?:%{$fg_bold[green]%}:%{$fg_bold[red]%})%{$reset_color%}"
 RPROMPT="%F{yellow}%T%f"
 # PROMPT="%{$fg[green]%}%n@%m %~ %{$reset_color%}%#> "
 PROMPT+="\$vcs_info_msg_0_ "
